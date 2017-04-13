@@ -5,7 +5,7 @@
  *
  *       var valuesString = window.ArrayInfo.getValues(givenArray);
  *
- * - get the source used to declare the array (see warning below)
+ * - get the source used to declare the array (see warnings below)
  *
  *       var sourceString = window.ArrayInfo.getSource(givenArray);
  *
@@ -13,7 +13,10 @@
  *
  *       var booleanFlag = window.ArrayInfo.canUseSourceToCloneArray;
  *
- * WARNING: Objects and functions are not displayed and any array with a 
+ * WARNING: When getting the source for an array, the array is returned
+ *          empty. An upcoming version will address this issue. 
+ *
+ *          Objects and functions are not displayed and any array with a 
  *          function or object element cannot be cloned with the source.
  *
  *          Object array elements are displayed as "{object}".
