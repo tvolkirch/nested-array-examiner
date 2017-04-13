@@ -13,13 +13,8 @@
  *
  *       var booleanFlag = window.ArrayInfo.canUseSourceToCloneArray;
  *
-<<<<<<< HEAD
- * WARNING: When getting the source for an array, the array is returned
- *          empty. An upcoming version will address this issue. 
-=======
  * WARNING: When getting the source for an array, the array is returned 
  *          empty. An upcoming version will address this issue.
->>>>>>> 61af07928ab70db0893318e72a3532c055ce8376
  *
  *          Objects and functions are not displayed and any array with a 
  *          function or object element cannot be cloned with the source.
